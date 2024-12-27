@@ -1,6 +1,6 @@
 <div class="container mx-auto p-4 grid grid-cols-1 md:grid-cols-3 gap-6 relative">
 
-    <div class="created-by absolute top-0 left-0 p-4 text-3xl font-bold text-gray-800">
+    <div class="created-by absolute top-0 left-0 p-4 text-2xl font-bold text-gray-800">
         Created By: {{ $creatorName }}
     </div>
 
