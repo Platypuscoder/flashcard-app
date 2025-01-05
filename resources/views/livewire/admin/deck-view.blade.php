@@ -71,7 +71,7 @@
                                 {{$flashcard->answer}}
                             </div>
                             <x-mary-button onclick="readFlashcard(event, '{{ $flashcard->answer }}')" class="mt-4 btn-primary">
-                                🔊 Read Answer
+                                🔊 Read Answe
                             </x-mary-button>
                         </div>
                     </div>

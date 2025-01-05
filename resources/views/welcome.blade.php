@@ -53,7 +53,7 @@
                         FlashSmart
                     </h1>
                     <p class="text-xl text-black  mt-4 font-bold" style="font-family: 'Roboto', sans-serif;">
-                        Click below to get
+                        Click
                     </p>
                 </div>
                 <img x-show="open" x-transition.duration.4000ms class="w-56 h-56 mb-8 rounded-lg" src="{{ asset('images/flash-card.png') }}" alt="Flash Card Logo">
