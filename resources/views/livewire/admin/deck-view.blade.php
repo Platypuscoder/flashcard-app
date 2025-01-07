@@ -32,7 +32,7 @@
 
         <div class="flex justify-center space-x-4 mb-6">
             <x-mary-button wire:click="$set('showModal', true)" class=" rounded-md btn-success text-2xl h-10 text-white">
-                Create A Flash Cardd 😃
+                Create A Flash Card 😃
             </x-mary-button>
         </div>
 
