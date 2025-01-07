@@ -17,9 +17,11 @@ class OpenAIService
 
     public function chatWithGPT($message)
     {
+        $apiKey = config('openai.api_key'); // Retrieve the API key from the new configuration file
+
         $response = $this->client->post('chat/completions', [
             'headers' => [
-                'Authorization' => 'Bearer ' . config('chatgpt.api_key'),
+                'Authorization' => 'Bearer ' . $apiKey,
                 'Content-Type' => 'application/json',
             ],
             'json' => [
